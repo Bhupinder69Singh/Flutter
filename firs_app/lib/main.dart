@@ -10,7 +10,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // in flutter we have mainly 3types of app i.e MaterialApp,WidgetApp,Cupertino app
-    //so 1st we need to specify
-    return Container();
+    //so 1st we need to specify type of app we are returning
+    return MaterialApp(
+      home: Material(
+        child: Center(
+          child: Container(
+            child: Text("Welcome To 30 Days Of Flutter"),
+          ),
+        ),
+      ),
+    );
   }
 }
