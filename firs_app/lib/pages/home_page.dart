@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -21,9 +19,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Center(child: Text("Catalog App")),
-        backgroundColor: Colors.black,
       ),
-      backgroundColor: Colors.blueGrey,
       body: Center(
         child: Container(
           child: Text(
